@@ -22,10 +22,18 @@ div~p {
 /* Task 2 */
 
 
- ul {
-    color: blue(first-child);
+ li:first-child {
+    color: blue;
  }
 
- ul {
-    color: red(2n);
+li:nth-child(2){
+    color: red;
+ }
+
+ li:nth-child(3){
+    color: green;
+ }
+
+ li:last-child{
+    color: yellow;
  }
